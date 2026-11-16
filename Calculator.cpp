@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cmath>
 int main() {
 double a, b; 
 
@@ -16,6 +15,5 @@ std::cout << "Quotient = " << a / b << std::endl;
 std::cout << "Division by zero is not allowed." << std::endl;
 }
 
-std::cout << "Power = " << std::pow(a, b) << std::endl;
 return 0;
 } 
